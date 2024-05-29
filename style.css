@@ -1,0 +1,158 @@
+/* common fix start here */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Inter", sans-serif;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/* common fix stop here */
+
+/* First section starts here */
+.Firstsection {
+    height: 430px;
+    display: flex;
+}
+.Firstsection-leftdiv{
+    height: 100%;
+    width: 50%;
+    background: var(--gray-color);
+    padding: 20px;
+}
+
+.logotext{
+    margin-bottom: 20px;
+}
+.Heading {
+margin-bottom: 20px;
+
+}
+span{ 
+    color: var(--main-color);
+}
+
+.Line{
+    height: 15px;
+    width: 224px ;
+    background: var(--main-color);
+}
+.Firstsection-leftdiv p{
+    margin-bottom: 25px;
+}
+
+.Firstsection-rightdiv{
+    height: 100%;
+    width: 50%;
+    background:var(--color-lg), url(./images/image1.jpg);
+    background-size: cover;
+   background-position: bottom left;
+}
+.link-holder{
+    color: var(--whtie-color);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+/* First section ends here */
+
+/* Second section start here  */
+.secondsection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.secondsection-leftdiv {
+height: 400px;
+width: 310px;
+margin-right: 20px;
+background: var(--gray-color);
+padding: 40px 25px;
+}
+.secondsection-leftdiv p{
+    margin-bottom: 25px;
+}
+.secondsection-leftdiv h4{
+margin-bottom: 20px;
+text-align: center;
+}
+
+.secondsection-rightdiv{
+height: 460px;
+width: 340px;
+}
+
+/* Second section ends here  */
+/*Third section starts here  */
+.thirdsection {
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+align-items: center;
+padding: 50px 0;
+}
+
+.thirdsection-leftdiv,
+.thirdsection-rightdiv{
+    width: 340px;
+    height: 460px;
+}
+
+.thirdsection-leftdiv img {
+    object-fit: cover;
+    object-position: bottom left ;
+}
+
+
+.thirdsection-rightdiv{
+background: var(--main-color);
+color: var(--whtie-color);
+padding: 40px 25px;
+
+}
+.thirdsection-rightdiv p{
+margin-bottom: 25px;
+}
+/*Third section ends here  */
+
+/* Footer section starts here  */
+footer {
+    padding: 10px 0;
+    color: var(--whtie-color);
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.footericons-container {
+    font-size: 22px;
+}
+.footericons-container i{
+    margin: 0 5px;
+}
+a {
+    color: var(--whtie-color);
+    text-decoration: none;
+}
+
+
+/*Footer section end here  */
+
+/*Saftey Measures starts here  */
+.Firstsection, .secondsection, .thirdsection, footer {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/*Saftey Measures ends here  */
